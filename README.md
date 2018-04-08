@@ -1,6 +1,7 @@
 # Spring Boot Jersey With JWT
 
 * Spring Boot
+* Spring Security
 * Jersey
 * Authenticate with JWT
 * API Rest
