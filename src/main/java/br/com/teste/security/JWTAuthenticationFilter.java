@@ -1,4 +1,4 @@
-package br.com.experian.jwtautenticate;
+package br.com.teste.security;
 
 import java.io.IOException;
 

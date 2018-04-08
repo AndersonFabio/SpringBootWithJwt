@@ -1,4 +1,4 @@
-package br.com.experian.jwtautenticate;
+package br.com.teste.model;
 
 public class AccountCredentials {
 	

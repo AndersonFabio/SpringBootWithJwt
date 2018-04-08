@@ -1,4 +1,4 @@
-package br.com.experian.jwtautenticate;
+package br.com.teste.security;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -17,9 +17,11 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import br.com.teste.model.AccountCredentials;
+
 public class JWTLoginFilter extends AbstractAuthenticationProcessingFilter {
 
-	protected JWTLoginFilter(String url, AuthenticationManager authManager) {
+	public JWTLoginFilter(String url, AuthenticationManager authManager) {
 		super(new AntPathRequestMatcher(url));
 		setAuthenticationManager(authManager);
 	}
