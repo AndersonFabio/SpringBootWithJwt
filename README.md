@@ -19,3 +19,8 @@
 * POST : http://localhost:8080/login
 * with Body: {"username":"admin", "password":"password"}
 * Receive the token in the header of response in field Authenticate
+
+# To Run
+
+* mvn package
+* mvn spring-boot:run
